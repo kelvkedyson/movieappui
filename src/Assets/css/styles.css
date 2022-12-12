@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Audiowide);
+
+#components-layout-demo-side .logo {
+    height: 32px;
+    margin: 16px;
+    background: #3d4141;
+}
+
+.site-layout .site-layout-background {
+    background-color: #333636;
+    border-bottom: 3px solid #333636;
+}
+
+.search_bar{
+    width: 300px;
+    margin-right: 10px;
+}
+
+div.wrapperClassName{
+    border: 1px solid rgba(116, 116, 116, 0.623);
+}
+
+div.toolbarClassName{
+    border: 1px solid #333636;
+}
+
+div.editorClassName{
+    border: 1px solid #333636;
+    height: 95px;
+}
+
+.site-page-header {
+    border: 1px solid #333636;
+    height: 70px;
+}
+
+.ant-layout-sider-trigger {
+    background-color: #4F5B5B;
+    border-bottom-right-radius: 30;
+    display: none;
+}
+
+.inputSearch {
+    border-radius: 50%;
+}
+
+.imageHome {
+    width: 800px;
+    height: 280px
+}
+
+
+.lds-dual-ring {
+    display: inline-block;
+    max-width: 450px;
+    max-height: 250px;
+    position: absolute;
+    z-index: 9999;
+    overflow: visible;
+    top: 50%;
+    left: 50%;
+    margin: -50px 0px 0px -50px;
+  }
+  .lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    border: 6px solid #0177BD;
+    border-color: #0177BD transparent #0177BD transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+  }
+  @keyframes lds-dual-ring {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(360deg);
+    }
+  }
